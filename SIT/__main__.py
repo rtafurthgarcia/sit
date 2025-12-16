@@ -176,7 +176,7 @@ def get_input() -> argparse.Namespace:
     return args
 
 
-if __name__ == "__main__":
+def run():
     args = get_input()
     
     import logging
@@ -217,3 +217,5 @@ if __name__ == "__main__":
 
 # python -m SIT generate -i E:\\code\\SIT\\example\\cyclonedx-python -o E:\\code\\SIT\\result\\sbom.json -f json -l 1
 
+if __name__ == "__main__":
+    run()

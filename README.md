@@ -25,6 +25,8 @@ subcommands:
     export       Export Sub-SBOM
     convert      Convert SBOM between different formats
 ```
+# Note
+I haven't changed anything per se, all I've done with this fork is making it pipx'able.
 
 # Installation
 
